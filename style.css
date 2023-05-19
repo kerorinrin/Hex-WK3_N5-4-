@@ -76,6 +76,7 @@ h1, .img-wrap{
 
 .cards-wrapper{
     display: flex;
+    /* flex-direction: row-reverse; */
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
@@ -102,7 +103,7 @@ h1, .img-wrap{
 .card p:last-of-type{
     /* line-height: 1.5; */
     align-self: stretch;
-flex-grow: 1
+    flex-grow: 1
 }
 .avatar{
     display: flex;
@@ -110,3 +111,4 @@ flex-grow: 1
 }
 .avatar>div p:first-of-type{font-weight: 700;}
 .avatar>div p:last-of-type{font-size: 14px;}
+
