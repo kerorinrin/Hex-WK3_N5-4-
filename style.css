@@ -112,3 +112,38 @@ h1, .img-wrap{
 .avatar>div p:first-of-type{font-weight: 700;}
 .avatar>div p:last-of-type{font-size: 14px;}
 
+.slider-dot{display: none;}
+
+@media (max-width: 872px) {
+    .cards-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        /* width: 100%; */
+    }
+
+
+.slider-dots {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 16px;
+}
+
+.slider-dot {
+    display: block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #525252;
+    margin: 0 4px;
+    cursor: pointer;
+}
+
+.slider-dot.active {
+    background-color: white;
+    width: 12px;
+    height: 12px;
+}
+}
