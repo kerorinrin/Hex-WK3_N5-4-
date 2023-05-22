@@ -100,7 +100,6 @@ h1, .img-wrap{
 }
 
 .card p:last-of-type{
-    /* line-height: 1.5; */
     align-self: stretch;
     flex-grow: 1
 }
@@ -145,9 +144,7 @@ h1, .img-wrap{
       
     }
     .card p:last-of-type{
-        /* line-height: 1.5; */
         align-self: normal;
-        /* flex-grow: initial; */
     }
     .card.active {
       opacity: 1;
@@ -157,7 +154,6 @@ h1, .img-wrap{
       display: flex;
       align-items: center;
       justify-content: center;
-      /* margin-top: 10px; */
       position: relative;
     }
   
